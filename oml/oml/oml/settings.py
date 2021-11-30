@@ -22,9 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 from decouple import config
 SECRET_KEY = config("SECRET_KEY")
-=======
 
->>>>>>> 765b2197a1c1d0e278fab7e199f00f9f97fc7738
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -40,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'homepage',
 ]
 
 MIDDLEWARE = [
